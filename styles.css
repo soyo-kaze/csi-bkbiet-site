@@ -3,6 +3,25 @@ body{
 	padding: 0px;
 	margin: 0px;
 }
+img {
+    max-width: 100%;
+}
+
+/* cover */
+
+#cover {
+    background: #222 url('img/stars.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%;
+}
 .topnav{
             font-family:tesla;           
             text-align: right;
@@ -27,4 +46,41 @@ body{
 .linear{
     height: 2000px;
 	background:linear-gradient(lightgray,darkgray,gray,grey,dimgray);
+}
+.large-header {
+   position: relative;
+   width: 100%;
+   overflow: hidden;
+ 
+   
+}
+.main-title {
+   position: absolute;
+   color: #F9F1E9;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   transform: translate3d(-50%, -50%, 0);
+}
+.butt {
+   position: absolute;
+   text-align: center;
+   top: 90%;
+   left: 50%;
+   transform: translate3d(-50%, -50%, 0);
+}
+
+.demo .main-title {
+   text-transform: uppercase;
+  margin: 0;
+   padding: 0;
+   color: #F9F1E9;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+   font-weight: 200;
 }
