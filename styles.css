@@ -18,7 +18,12 @@ img {
     display: flex;
     align-items: center;
 }
+#cover1 {
 
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
 #cover-caption {
     width: 100%;
 }
