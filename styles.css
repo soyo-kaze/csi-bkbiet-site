@@ -27,6 +27,8 @@ img {
 #cover-caption {
     width: 100%;
 }
+
+/*top nav*/
 .topnav{
             font-family:tesla;           
             text-align: right;
@@ -47,18 +49,20 @@ img {
   40% { transform: translate(1px) ; }
  
 }
+
 /* gradient look for fixed navbar comparition */
 .linear{
     height: 2000px;
 	background:linear-gradient(lightgray,darkgray,gray,grey,dimgray);
 }
+
+/*uber cool effect css*/
 .large-header {
    position: relative;
    width: 100%;
    overflow: hidden;
- 
-   
 }
+/*for render text on it*/
 .main-title {
    position: absolute;
    color: #F9F1E9;
