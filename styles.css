@@ -106,3 +106,40 @@ img {
 	padding-left: 40px;
 	padding-top: 30px;
 }
+.footer{
+	background-color: darkslategrey;
+	height: 150px;
+	font-family: 
+}
+p#footerline{
+	margin: 0px;
+	padding-top: 60px;
+	padding-left: 70px;
+	font-size: 12px;
+	font-family:monospace;
+	color:grey;
+}
+img#icons1{
+	float: right;
+	height: 50px;
+	padding: 10px;	
+	padding-bottom: 0px;
+}
+
+img#icons2{
+	float: right;
+	height: 50px;
+	padding: 10px;
+	padding-bottom: 0px;
+}
+
+img#icons3{
+	float: right;
+	height: 50px;
+	padding: 10px;	
+	padding-bottom: 0px;
+}
+.icons{
+	padding-right: 50px;
+	padding-top: 50px;
+}
