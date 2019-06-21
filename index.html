@@ -78,7 +78,7 @@
 
 		<section id="nav-main">
 			<div class="container-fluid about" id="about">
-				<div class="row jumbotron jumbotron-fluid" id="abo">
+				<div class="row" id="abo">
 					<div class="col-lg-8" style="padding-right: 0px;">
 						<div id="carousel-home" class="carousel slide" data-ride="carousel">
 							<ol class="carousel-indicators">
@@ -131,30 +131,32 @@
 			</div>
 		</section>
 
-		<!-- events sections -->	
-		<div class="container" id="events">
-			<div class="row justify-content-center">
-				<div class="col-sm-4" style="text-align:center;">
-					<h1>EVENTS</h1>
-					<hr>
+		<!-- events sections -->
+		<section class=" linear">
+			<div class="container" id="events">
+				<div class="row justify-content-center">
+					<div class="col-sm-4" style="text-align:center;">
+						<br>
+						<h1 class="text-grey">EVENTS</h1>
+						<hr>
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-12">
-					<div class="card-columns">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="card-columns">
 
-						<div class="card bg-dark text-white">
-							<img src="img/hand.jpg" class="card-img-top" alt="...">
-							<div class="card-body">
-								<h5 class="card-title">AARAMBH</h5>
-								<hr>
-								<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							<div class="card bg-dark text-white">
+								<img src="img/hand.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">AARAMBH</h5>
+									<hr>
+									<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+								</div>
+								<div class="card-body">
+									<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#aarambh">Learn more</button>
+								</div>
 							</div>
-							<div class="card-body">
-								<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#aarambh">Learn more</button>
-							</div>
-						</div>
-						<!--<div class="card p-3">
+							<!--<div class="card p-3">
 <blockquote class="blockquote mb-0 card-body">
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
 <footer class="blockquote-footer">
@@ -164,18 +166,18 @@ Someone famous in <cite title="Source Title">Source Title</cite>
 </footer>
 </blockquote>
 </div> -->
-						<div class="card text-white bg-info">
-							<img src="img/maskman.jpg" class="card-img-top" alt="...">
-							<div class="card-body">
-								<h5 class="card-title">GEEK INSIDE</h5>
-								<hr>
-								<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							<div class="card text-white bg-info">
+								<img src="img/maskman.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">GEEK INSIDE</h5>
+									<hr>
+									<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+								</div>
+								<div class="card-body">
+									<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#geekinside">Learn more</button>
+								</div>
 							</div>
-							<div class="card-body">
-								<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#geekinside">Learn more</button>
-							</div>
-						</div>
-						<!--	<div class="card bg-primary text-white text-center p-3">
+							<!--	<div class="card bg-primary text-white text-center p-3">
 <blockquote class="blockquote mb-0">
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
 <footer class="blockquote-footer text-white">
@@ -192,18 +194,18 @@ Someone famous in <cite title="Source Title">Source Title</cite>
 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 </div>
 </div> -->
-						<div class="card ">
-							<img src="img/hackathons.jpg" class="card-img-top" alt="...">
-							<div class="card-body">
-								<h5 class="card-title">HACK-A-THONS</h5>
-								<hr>
-								<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							<div class="card ">
+								<img src="img/hackathons.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">HACK-A-THONS</h5>
+									<hr>
+									<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+								</div>
+								<div class="card-body">
+									<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#hackathon">Learn more</button>
+								</div>
 							</div>
-							<div class="card-body">
-								<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#hackathon">Learn more</button>
-							</div>
-						</div>
-						<!--	<div class="card p-3 text-right">
+							<!--	<div class="card p-3 text-right">
 <blockquote class="blockquote mb-0">
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
 <footer class="blockquote-footer">
@@ -234,77 +236,78 @@ Someone famous in <cite title="Source Title">Source Title</cite>
 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 </div>
 </div> -->
-						<div class="card bg-light">
-							<img src="img/workshops.jpg" class="card-img-top" alt="...">
-							<div class="card-body">
-								<h5 class="card-title">WORKSHOPS</h5>
-								<hr>
-								<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-							</div>
-							<div class="card-body">
-								<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#workshops">Learn more</button>
-							</div>
-						</div>
-
-						<div class="card text-white bg-dark">
-							<img src="img/team.jpg" class="card-img-top" alt="...">
-							<div class="card-body">
-								<h5 class="card-title">TECH TUTIONS</h5>
-								<hr>
-								<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-							</div>
-							<div class="card-body">
-								<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#techtutions">Learn more</button>
-							</div>
-						</div>
-
-						<div class="card text-white bg-info">
-							<img src="img/trips.jpg" class="card-img-top" alt="...">
-							<div class="card-body">
-								<h5 class="card-title">TRIPS</h5>
-								<hr>
-								<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-							</div>
-							<div class="card-body">
-								<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#trips">Learn more</button>
-							</div>
-						</div>
-
-						<div class="card ">
-							<div class="row no-gutters">
-								<div class="col-sm">
-									<img src="img/talks.jpg" class="card-img-top" alt="...">
+							<div class="card bg-light">
+								<img src="img/workshops.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">WORKSHOPS</h5>
+									<hr>
+									<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
 								</div>
-								<div class="col-sm">
-									<div class="card-body">
-										<h6 class="card-title">TALKS &amp; SEMINARS</h6>
-										<p style="font-size: 12px;" class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-									</div>
-									<div class="card-body">
-										<button type="button" class="btn btn-outline-success btn-sm" data-toggle="modal" data-target="#talksseminars">Learn more</button>
-									</div>
+								<div class="card-body">
+									<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#workshops">Learn more</button>
 								</div>
 							</div>
-						</div>
 
-						<div class="card text-white bg-dark">
-							<img src="img/geekopedia.jpg" class="card-img-top" alt="...">
-							<div class="card-body">
-								<h5 class="card-title">GEEK-O-PEDIA</h5>
-								<hr>
-								<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							<div class="card text-white bg-dark">
+								<img src="img/team.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">TECH TUTIONS</h5>
+									<hr>
+									<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+								</div>
+								<div class="card-body">
+									<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#techtutions">Learn more</button>
+								</div>
 							</div>
-							<div class="card-body">
-								<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#geekopedia">Learn more</button>
-							</div>
-						</div>
 
-					</div>
-				</div>	
+							<div class="card text-white bg-info">
+								<img src="img/trips.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">TRIPS</h5>
+									<hr>
+									<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+								</div>
+								<div class="card-body">
+									<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#trips">Learn more</button>
+								</div>
+							</div>
+
+							<div class="card ">
+								<div class="row no-gutters">
+									<div class="col-sm">
+										<img src="img/talks.jpg" class="card-img-top" alt="...">
+									</div>
+									<div class="col-sm">
+										<div class="card-body">
+											<h6 class="card-title">TALKS &amp; SEMINARS</h6>
+											<p style="font-size: 12px;" class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+										</div>
+										<div class="card-body">
+											<button type="button" class="btn btn-outline-success btn-sm" data-toggle="modal" data-target="#talksseminars">Learn more</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="card text-white bg-dark">
+								<img src="img/geekopedia.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">GEEK-O-PEDIA</h5>
+									<hr>
+									<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+								</div>
+								<div class="card-body">
+									<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#geekopedia">Learn more</button>
+								</div>
+							</div>
+
+						</div>
+					</div>	
+				</div>
 			</div>
-		</div>
+		</section>
 
-<!-- modal boxes -->
+		<!-- modal boxes -->
 		<!--AARAMBH-->
 		<div class="modal fade" id="aarambh" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
 			<div class="modal-dialog modal-dialog-scrollable" role="document">
@@ -481,7 +484,7 @@ Someone famous in <cite title="Source Title">Source Title</cite>
 				</div>
 			</div>
 		</div>
-		
+
 		<!-- break between footer and section above it -->
 		<div class="container">
 			<div class="row">

@@ -74,7 +74,6 @@ img {
 
 /* gradient look for fixed navbar comparition */
 .linear{
-    height: 2000px;
 	background:linear-gradient(lightgray,darkgray,gray,grey,dimgray);
 }
 
