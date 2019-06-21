@@ -8,13 +8,28 @@ img {
 }
 @font-face{
 	font-family:"tesla";
-	src: url("fonts/tesla/tesla.otf");
+	src: url("fonts/tesla/TESLA.ttf");
 }
-
+@font-face{
+	font-family:"ethocentric";
+	src: url("fonts/ethocentric/ethocentric rg.ttf");
+}
+@font-face{
+	font-family:"xirod";
+	src: url("fonts/xirod/xirod.ttf");
+}
+@font-face{
+	font-family:"neutronium";
+	src: url("fonts/neutronium/Neutronium.ttf");
+}
+@font-face{
+	font-family:"halo";
+	src: url("fonts/halo/halo.ttf");
+}
 /* cover */
 
 #cover {
-    background: #222 url('img/matrix.jpg') center center no-repeat;
+    background: #222 url('gifs/binary.gif') center center no-repeat;
     background-size: cover;
     color: white;
     height: 100%;
@@ -38,8 +53,11 @@ img {
             text-align: right;
             color:white;
             text-decoration: none;
-            
         }
+.topnav li{
+	padding-left: 13px;
+	padding-right: 13px;
+}
 .topnav a:hover{
             animation: shake 0.1s;
   			animation-iteration-count:3;
@@ -142,4 +160,8 @@ img#icons3{
 .icons{
 	padding-right: 50px;
 	padding-top: 50px;
+}
+div#abo{
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
