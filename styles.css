@@ -37,6 +37,12 @@ img {
 	display: flex;
 	align-items: center;
 }
+#cover2{
+	background-size: cover;
+	color: white;
+	height: 100%;
+	width: auto;
+}
 #cover1 {
 
 	text-align: center;
