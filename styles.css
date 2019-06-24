@@ -176,3 +176,21 @@ div#abo{
 	bottom: 20px;
 	right: 20px;
 }
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 100%;
+}
+.tablink:hover{
+	background-color: darkgrey;
+	color: black;
+}
+.tabcontent{
+  display: none;
+ }
