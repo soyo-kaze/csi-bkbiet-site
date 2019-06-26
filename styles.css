@@ -175,3 +175,23 @@ div#abo{
 .ta{
   display: none;
  }
+#concover{
+	background: url(img/findus.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 270px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	
+}
+#mapcover{
+	background: url(img/contactus.jpg) center center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height:500px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	
+}
