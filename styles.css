@@ -36,9 +36,10 @@ img {
 
 /*top nav*/
 .topnav{
-	font-family:tesla;           
+	font-family:gracetians;           
 	text-align: right;
 	color:white;
+	font-size: 17px;
 	text-decoration: none;
 }
 .topnav li{
