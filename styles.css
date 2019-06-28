@@ -195,3 +195,14 @@ div#abo{
 	align-items: center;
 	
 }
+.namecard:hover{
+	background: url(img/team/Manoj%20tak.jpg) no-repeat;
+	background-size: cover;
+	color: azure;
+}
+.namecard1:hover{
+	background: url(img/team/shreshth%20bansal.jpg) no-repeat;
+	background-position: 0% 8%;
+	background-size: cover;
+	color: azure;
+}
