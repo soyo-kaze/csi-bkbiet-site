@@ -1,0 +1,433 @@
+index.html<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>CSI-BKBIET</title>
+		<link rel="shortcut icon" href="img/csilogo.png" /> <!-- for csi logo on title bar -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="styles.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script src="topbtn.js"></script>
+	</head>
+	<button onclick="topFunction()" type="button" class="btn btn-success" id="upbtn">&uarr;</button>
+	<body data-spy="scroll" data-target="#nav" data-offset="0">		
+
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="nav">
+			<a class="navbar-brand" href="#" style="font-family:tesla;"><img src="">CSI BKBIET</a> 		<!-- img can be csi logo with no back ground -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <!--dropdown menu at far right when opened in mobile-->
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse topnav" id="navbarSupportedContent">				<!-- dummy links and topics -->
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown">
+						<div class="btn-group">
+							<a class="nav-link" href="index.html#about">ABOUT</a> 
+							<a class="nav-link dropdown-toggle dropdown-toggle-split" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="padding-top: 18px;">
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="index.html#vission">VISION &amp; MISSION</a>
+								<a class="dropdown-item" href="index.html#history">HISTORY</a>
+								<a class="dropdown-item" href="index.html#message">MESSAGE</a>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">TEAM</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="events.html#events">EVENTS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html#cover2">GALLERY</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contactus.html#map">CONTACT US</a>
+					</li>
+				</ul> 
+			</div>
+		</nav>
+		<div id="events" class="container" style="height: 30px;"> 
+			<!-- To compensate the height of navbar -->
+		</div>
+		<section id=eventscover>
+			<div id="cover-caption">
+				<div class="container">
+					<div class="col-sm text-white">
+						<h2 style="font-family:gracetians;font-size: 60px;">EVENTS</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class=" linear">
+			<div class="container" >
+				<div class="row justify-content-center">
+					<div class="col-sm-4" style="text-align:center;">
+						<br>
+						<hr>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="card-columns">
+							<div class="card bg-dark text-white">
+								<img src="img/hand.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">AARAMBH</h5>
+									<hr>
+									<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+								</div>
+								<div class="card-body">
+									<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#aarambh">Learn more</button>
+								</div>
+							</div>
+							<!--<div class="card p-3">
+<blockquote class="blockquote mb-0 card-body">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+<footer class="blockquote-footer">
+<small class="text-muted">
+Someone famous in <cite title="Source Title">Source Title</cite>
+</small>
+</footer>
+</blockquote>
+</div> -->
+							<div class="card text-white bg-info">
+								<img src="img/maskman.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">GEEK INSIDE</h5>
+									<hr>
+									<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+								</div>
+								<div class="card-body">
+									<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#geekinside">Learn more</button>
+								</div>
+							</div>
+							<!--	<div class="card bg-primary text-white text-center p-3">
+<blockquote class="blockquote mb-0">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+<footer class="blockquote-footer text-white">
+<small>
+Someone famous in <cite title="Source Title">Source Title</cite>
+</small>
+</footer>
+</blockquote>
+</div> 
+<div class="card text-center">
+<div class="card-body">
+<h5 class="card-title">Card title</h5>
+<p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
+<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+</div>
+</div> -->
+							<div class="card ">
+								<img src="img/hackathons.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">HACK-A-THONS</h5>
+									<hr>
+									<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+								</div>
+								<div class="card-body">
+									<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#hackathon">Learn more</button>
+								</div>
+							</div>
+							<!--	<div class="card p-3 text-right">
+<blockquote class="blockquote mb-0">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+<footer class="blockquote-footer">
+<small class="text-muted">
+Someone famous in <cite title="Source Title">Source Title</cite>
+</small>
+</footer>
+</blockquote>
+</div>
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Card title</h5>
+<p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+</div>
+</div> 
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Card title</h5>
+<p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+</div>
+</div> 
+<div class="card">
+<div class="card-body">
+<h5 class="card-title">Card title</h5>
+<p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
+<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+</div>
+</div> -->
+							<div class="card bg-light">
+								<img src="img/workshops.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">WORKSHOPS</h5>
+									<hr>
+									<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+								</div>
+								<div class="card-body">
+									<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#workshops">Learn more</button>
+								</div>
+							</div>
+
+							<div class="card text-white bg-dark">
+								<img src="img/team.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">TECH TUTIONS</h5>
+									<hr>
+									<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+								</div>
+								<div class="card-body">
+									<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#techtutions">Learn more</button>
+								</div>
+							</div>
+
+							<div class="card text-white bg-info">
+								<img src="img/trips.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">TRIPS</h5>
+									<hr>
+									<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+								</div>
+								<div class="card-body">
+									<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#trips">Learn more</button>
+								</div>
+							</div>
+
+							<div class="card ">
+								<div class="row no-gutters">
+									<div class="col-sm">
+										<img src="img/talks.jpg" class="card-img-top" alt="...">
+									</div>
+									<div class="col-sm">
+										<div class="card-body">
+											<h6 class="card-title">TALKS &amp; SEMINARS</h6>
+											<p style="font-size: 12px;" class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+										</div>
+										<div class="card-body">
+											<button type="button" class="btn btn-outline-success btn-sm" data-toggle="modal" data-target="#talksseminars">Learn more</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="card text-white bg-dark">
+								<img src="img/geekopedia.jpg" class="card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">GEEK-O-PEDIA</h5>
+									<hr>
+									<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+								</div>
+								<div class="card-body">
+									<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#geekopedia">Learn more</button>
+								</div>
+							</div>
+
+						</div>
+					</div>	
+				</div>
+			</div>
+		</section>
+
+		<!-- modal boxes -->
+		<!--AARAMBH-->
+		<div class="modal fade" id="aarambh" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-scrollable" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="ModalTitle" style="font-family:xirod;">AARAMBH</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/hand.jpg" alt="..." style="width: 100%;">
+						<br><br>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum tempora eum vel earum, minima perspiciatis, nulla, voluptatibus dolor facilis cumque quasi animiComputer Society of India (CSI) is the oldest and largest organisation of IT and allied professionals in India. CSI is a non-profit professional society formed dedicated to Computing to exchange views and information, learn and share ideas. The wide spectrum of members is committed to the advancement of theory and practice of Computer Engineering and Technology Systems, Science and Engineering, Information Processing and related Arts and Sciences. CSI has a natural responsibility to play a pivotal role in shaping a Digital India. CSI's missions are (1) Facilitate Research, Knowledge Sharing, Learning and Career Enhancement among all categories of IT professionals. (2) Inspire, nurture and assist students to integrate into the IT community. (3) Percolate benefits of IT advancement to all sections of Indian Society.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--GEEK-O-PEDIA-->
+		<div class="modal fade" id="geekopedia" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-scrollable" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="ModalTitle" style="font-family:xirod;">GEEK-O-PEDIA</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/geekopedia.jpg" alt="..." style="width: 100%;">
+						<br><br>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum tempora eum vel earum, minima perspiciatis, nulla, voluptatibus dolor facilis cumque quasi animiComputer Society of India (CSI) is the oldest and largest organisation of IT and allied professionals in India. CSI is a non-profit professional society formed dedicated to Computing to exchange views and information, learn and share ideas. The wide spectrum of members is committed to the advancement of theory and practice of Computer Engineering and Technology Systems, Science and Engineering, Information Processing and related Arts and Sciences. CSI has a natural responsibility to play a pivotal role in shaping a Digital India. CSI's missions are (1) Facilitate Research, Knowledge Sharing, Learning and Career Enhancement among all categories of IT professionals. (2) Inspire, nurture and assist students to integrate into the IT community. (3) Percolate benefits of IT advancement to all sections of Indian Society.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--WORKSHOPS-->
+		<div class="modal fade" id="workshops" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-scrollable" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="ModalTitle" style="font-family:xirod;">WORKSHOPS</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/workshops.jpg" alt="..." style="width: 100%;">
+						<br><br>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum tempora eum vel earum, minima perspiciatis, nulla, voluptatibus dolor facilis cumque quasi animiComputer Society of India (CSI) is the oldest and largest organisation of IT and allied professionals in India. CSI is a non-profit professional society formed dedicated to Computing to exchange views and information, learn and share ideas. The wide spectrum of members is committed to the advancement of theory and practice of Computer Engineering and Technology Systems, Science and Engineering, Information Processing and related Arts and Sciences. CSI has a natural responsibility to play a pivotal role in shaping a Digital India. CSI's missions are (1) Facilitate Research, Knowledge Sharing, Learning and Career Enhancement among all categories of IT professionals. (2) Inspire, nurture and assist students to integrate into the IT community. (3) Percolate benefits of IT advancement to all sections of Indian Society.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--GEEK INSIDE-->
+		<div class="modal fade" id="geekinside" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-scrollable" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="ModalTitle" style="font-family:xirod;">GEEK INSIDE</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/maskman.jpg" alt="..." style="width: 100%;">
+						<br><br>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum tempora eum vel earum, minima perspiciatis, nulla, voluptatibus dolor facilis cumque quasi animiComputer Society of India (CSI) is the oldest and largest organisation of IT and allied professionals in India. CSI is a non-profit professional society formed dedicated to Computing to exchange views and information, learn and share ideas. The wide spectrum of members is committed to the advancement of theory and practice of Computer Engineering and Technology Systems, Science and Engineering, Information Processing and related Arts and Sciences. CSI has a natural responsibility to play a pivotal role in shaping a Digital India. CSI's missions are (1) Facilitate Research, Knowledge Sharing, Learning and Career Enhancement among all categories of IT professionals. (2) Inspire, nurture and assist students to integrate into the IT community. (3) Percolate benefits of IT advancement to all sections of Indian Society.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--HACK-A-THONS-->
+		<div class="modal fade" id="hackathon" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-scrollable" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="ModalTitle" style="font-family:xirod;">HACK-A-THONS</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/hackathons.jpg" alt="..." style="width: 100%;">
+						<br><br>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum tempora eum vel earum, minima perspiciatis, nulla, voluptatibus dolor facilis cumque quasi animiComputer Society of India (CSI) is the oldest and largest organisation of IT and allied professionals in India. CSI is a non-profit professional society formed dedicated to Computing to exchange views and information, learn and share ideas. The wide spectrum of members is committed to the advancement of theory and practice of Computer Engineering and Technology Systems, Science and Engineering, Information Processing and related Arts and Sciences. CSI has a natural responsibility to play a pivotal role in shaping a Digital India. CSI's missions are (1) Facilitate Research, Knowledge Sharing, Learning and Career Enhancement among all categories of IT professionals. (2) Inspire, nurture and assist students to integrate into the IT community. (3) Percolate benefits of IT advancement to all sections of Indian Society.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--TRIPS-->
+		<div class="modal fade" id="trips" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-scrollable" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="ModalTitle" style="font-family:xirod;">TRIPS</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/trips.jpg" alt="..." style="width: 100%;">
+						<br><br>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum tempora eum vel earum, minima perspiciatis, nulla, voluptatibus dolor facilis cumque quasi animiComputer Society of India (CSI) is the oldest and largest organisation of IT and allied professionals in India. CSI is a non-profit professional society formed dedicated to Computing to exchange views and information, learn and share ideas. The wide spectrum of members is committed to the advancement of theory and practice of Computer Engineering and Technology Systems, Science and Engineering, Information Processing and related Arts and Sciences. CSI has a natural responsibility to play a pivotal role in shaping a Digital India. CSI's missions are (1) Facilitate Research, Knowledge Sharing, Learning and Career Enhancement among all categories of IT professionals. (2) Inspire, nurture and assist students to integrate into the IT community. (3) Percolate benefits of IT advancement to all sections of Indian Society.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--TECH TUTIONS-->
+		<div class="modal fade" id="techtutions" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-scrollable" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="ModalTitle" style="font-family:xirod;">TECH TUTIONS</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/team.jpg" alt="..." style="width: 100%;">
+						<br><br>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum tempora eum vel earum, minima perspiciatis, nulla, voluptatibus dolor facilis cumque quasi animiComputer Society of India (CSI) is the oldest and largest organisation of IT and allied professionals in India. CSI is a non-profit professional society formed dedicated to Computing to exchange views and information, learn and share ideas. The wide spectrum of members is committed to the advancement of theory and practice of Computer Engineering and Technology Systems, Science and Engineering, Information Processing and related Arts and Sciences. CSI has a natural responsibility to play a pivotal role in shaping a Digital India. CSI's missions are (1) Facilitate Research, Knowledge Sharing, Learning and Career Enhancement among all categories of IT professionals. (2) Inspire, nurture and assist students to integrate into the IT community. (3) Percolate benefits of IT advancement to all sections of Indian Society.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--TALKS & SEMINARS-->
+		<div class="modal fade" id="talksseminars" tabindex="-1" role="dialog" aria-labelledby="ModalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-scrollable" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="ModalTitle" style="font-family:xirod;">TALKS &amp; SEMINARS</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<img src="img/talks.jpg" alt="..." style="width: 100%;">
+						<br><br>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum tempora eum vel earum, minima perspiciatis, nulla, voluptatibus dolor facilis cumque quasi animiComputer Society of India (CSI) is the oldest and largest organisation of IT and allied professionals in India. CSI is a non-profit professional society formed dedicated to Computing to exchange views and information, learn and share ideas. The wide spectrum of members is committed to the advancement of theory and practice of Computer Engineering and Technology Systems, Science and Engineering, Information Processing and related Arts and Sciences. CSI has a natural responsibility to play a pivotal role in shaping a Digital India. CSI's missions are (1) Facilitate Research, Knowledge Sharing, Learning and Career Enhancement among all categories of IT professionals. (2) Inspire, nurture and assist students to integrate into the IT community. (3) Percolate benefits of IT advancement to all sections of Indian Society.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- footer  -->
+		<div class="footer">
+			<div class="icons">
+				<a href="https://www.facebook.com/festordinado/?ref=br_rs" target="_blank"><img id="icons1" src="icon\fb1.png"></a>
+				<a href="https://instagram.com/fest.ordinado?utm_source=ig_profile_share&igshid=99wbjaypekcu" target="_blank"><img id="icons2" src="icon\insta1.png"></a>
+				<a href="#" target="_blank"><img id="icons3" src="icon\twit1.png"></a>
+			</div>	
+			<p id="footerline">© 2019 CSI-BKBIET . Design: SAMEER SAINI.</p>
+
+		</div>
+	</body>
+</html>
+		
