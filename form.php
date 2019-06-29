@@ -2,7 +2,7 @@
 
 if(isset($_POST['submit'])){
 	
-	$to = "email@gmail.com";
+	$to = "la.marcus@protonmail.com";
 	$name = $_POST['name'];
 	$email = $_POST['email'];
 	$subject = $_POST['subject'];
