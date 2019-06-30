@@ -126,17 +126,17 @@ img {
 	padding-top: 30px;
 }
 .footer{
-	background-color: darkslategrey;
-	height: 150px;
+	background-color: #343a40;
+	color: azure;
 	font-family: ;
+	margin-bottom: 0px;
 }
 p#footerline{
-	margin: 0px;
-	padding-top: 60px;
-	padding-left: 70px;
-	font-size: 12px;
+	text-align: center;
 	font-family:monospace;
-	color:grey;
+	color: grey;
+	font-size: 12px;
+	margin: 0px;
 }
 img#icons1{
 	float: right;
@@ -173,23 +173,23 @@ div#abo{
 	right: 20px;
 }
 .tablink {
-  background-color: #555;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 100%;
+	background-color: #555;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 100%;
 }
 .tablink:hover{
 	background-color: darkgrey;
 	color: black;
 }
 .ta{
-  display: none;
- }
+	display: none;
+}
 #concover{
 	background: url(img/findus.jpg) no-repeat;
 	background-size: cover;
@@ -198,7 +198,7 @@ div#abo{
 	text-align: center;
 	display: flex;
 	align-items: center;
-	
+
 }
 #mapcover{
 	background: url(img/contactus.jpg) center center no-repeat;
@@ -208,7 +208,7 @@ div#abo{
 	text-align: center;
 	display: flex;
 	align-items: center;
-	
+
 }
 .namecard:hover{
 	background: url(img/team/Manoj%20tak.jpg) no-repeat;
@@ -246,5 +246,8 @@ div#abo{
 	text-align: center;
 	display: flex;
 	align-items: center;
-	
+
+}
+.footfollow a{
+	padding: 8px;
 }
