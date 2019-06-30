@@ -1,4 +1,7 @@
 @import "fonts.css";
+
+@import "team.css";
+
 html,
 body{
 	padding: 0px;
@@ -210,18 +213,6 @@ div#abo{
 	align-items: center;
 
 }
-.namecard:hover{
-	background: url(img/team/Manoj%20tak.jpg) no-repeat;
-	background-size: cover;
-	color: azure;
-}
-.namecard1:hover{
-	background: url(img/team/shreshth%20bansal.jpg) no-repeat;
-	background-position: 0% 8%;
-	background-size: cover;
-	color: azure;
-}
-
 .insta:hover{
 	background: url(icon/insta3.png);
 	background-size: cover;	
@@ -250,4 +241,21 @@ div#abo{
 }
 .footfollow a{
 	padding: 8px;
+}
+.concard:hover{
+	background: url(img/team/Manoj%20tak.jpg) no-repeat;
+	background-size: cover;
+	color: azure;
+}
+.concard1:hover{
+	background: url(img/team/shreshth%20bansal.jpg) no-repeat;
+	background-position: 0% 8%;
+	background-size: cover;
+	color: azure;
+	
+}
+.back{
+	background: url(img/15002.jpg);
+	background-size: cover;
+	background-position: 100% 0%;
 }
