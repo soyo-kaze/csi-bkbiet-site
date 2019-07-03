@@ -52,8 +52,8 @@
 	
 }
 .namecard8{
-	background: url(img/team/shubham.jpg) no-repeat;
-	background-position: 0% 20%;
+	background: url(img/team/shubam.jpg) no-repeat;
+	background-position: 0% 16%;
 	background-size: cover;
 	color: azure;
 	
@@ -73,11 +73,11 @@
 	
 }
 .namecard11{
-	background: url(img/team/mansi%20gupta.jpg) no-repeat;
-	background-position: 0% 17%;
+	background: url(img/team/mansi%20gupta.jpg)center center no-repeat;
+	background-position: 0% 12%;
 	background-size: cover;
 	color: azure;
-	
+	height: 260px;
 }
 .namecard12{
 	background: url(img/team/Kartik%20Rana.jpg) no-repeat;
