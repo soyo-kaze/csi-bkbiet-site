@@ -196,6 +196,9 @@ div#abo{
 .ta{
 	display: none;
 }
+.backta{
+	background: url(img/17266.jpg)center center no-repeat;
+}
 #concover{
 	background: url(img/findus.jpg) no-repeat;
 	background-size: cover;
