@@ -1,0 +1,35 @@
+@font-face{
+	font-family:"tesla";
+	src: url("fonts/tesla/TESLA.ttf");
+}
+@font-face{
+	font-family:"ethocentric";
+	src: url("fonts/ethocentric/ethocentric rg.ttf");
+}
+@font-face{
+	font-family:"xirod";
+	src: url("fonts/xirod/xirod.ttf");
+}
+@font-face{
+	font-family:"neutronium";
+	src: url("fonts/neutronium/Neutronium.ttf");
+}
+@font-face{
+	font-family:"halo";
+	src: url("fonts/halo/halo.ttf");
+}
+@font-face{
+	font-family: "google";
+	src: url(https://fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2);
+}
+@font-face{
+	font-family:"alidth";	src:url("fonts/aldith/aldith.otf");
+}
+@font-face{
+	font-family:"gracetians";
+	src:url("fonts/gracetians/GRACETIANS.otf")
+}
+@font-face{
+	font-family:"lux-montag";
+	src:url("fonts/lux-montag/Lux-Montag.ttf");
+}

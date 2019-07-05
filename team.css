@@ -1,0 +1,101 @@
+.namecard{
+	background: url(img/team/Manoj%20tak.jpg) no-repeat;
+	background-size: cover;
+	color: azure;
+}
+.namecard1{
+	background: url(img/team/shreshth%20bansal.jpg) no-repeat;
+	background-position: 0% 8%;
+	background-size: cover;
+	color: azure;
+	
+}
+.namecard2{
+	background: url(img/team/RONAK%20JANAWA.jpg) no-repeat;
+	background-position: 0% 15%;
+	background-size: cover;
+	color: azure;
+}
+.namecard3{
+	background: url(img/team/Ankur%20kedia.jpg) no-repeat;
+	background-position: 0% 8%;
+	background-size: cover;
+	color: azure;
+	
+}
+.namecard4{
+	background: url(img/team/Vatsla%20Garg.jpg) no-repeat;
+	background-position: 0% 29%;
+	background-size: cover;
+	color: azure;
+	
+}
+.namecard5{
+	background: url(img/team/Shreenidhi.jpg) no-repeat;
+	background-position: 0% 8%;
+	background-size: cover;
+	color: azure;
+	
+}
+.namecard6{
+	background: url(img/team/Manal%20Swami.jpg) no-repeat;
+	background-position: 0% 19%;
+	background-size: cover;
+	color: azure;
+	
+}
+.namecard7{
+	background: url(img/team/Sameer%20saini1.jpg)center center no-repeat;
+	background-position: 0% 70%;
+	background-size: cover;
+	color: azure;
+	
+}
+.namecard8{
+	background: url(img/team/shubam.jpg) no-repeat;
+	background-position: 0% 16%;
+	background-size: cover;
+	color: azure;
+	
+}
+.namecard9{
+	background: url(img/team/samiksha%20bhatnagar.jpg) no-repeat;
+	background-position: 0% 20%;
+	background-size: cover;
+	color: azure;
+	
+}
+.namecard10{
+	background: url(img/team/paneer.jpg) no-repeat;
+	background-position: 0% 8%;
+	background-size: cover;
+	color: azure;
+	
+}
+.namecard11{
+	background: url(img/team/mansi%20gupta.jpg)center center no-repeat;
+	background-position: 0% 12%;
+	background-size: cover;
+	color: azure;
+	height: 260px;
+}
+.namecard12{
+	background: url(img/team/Kartik%20Rana.jpg) no-repeat;
+	background-position: 0% 45%;
+	background-size: cover;
+	color: azure;
+	
+}
+.info:hover{
+	background-color: rgba(255,255,255,0);
+	background-position: 0% 15%;
+	background-size: cover;
+	color: azure;
+	opacity: 0.5;
+}
+.info{
+	background-color: rgba(255,255,255,0.4);
+	background-position: 0% 15%;
+	background-size: cover;
+	color:black;
+}
