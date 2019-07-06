@@ -126,6 +126,9 @@ img {
     background: linear-gradient(to top, #757f9a, #d7dde8);
 	/*background: linear-gradient(to top, #403b4a, #e7e9bb);*/
 }
+.about1{
+	padding-left: 0px;
+}
 .section-content {
 	padding: 20px ;
 	padding-left: 40px;
