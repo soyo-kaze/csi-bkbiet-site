@@ -80,10 +80,11 @@ img {
 
 /* gradient look for fixed navbar comparition */
 .linear{
-	background:linear-gradient(lightgray,darkgray,gray,grey,dimgray);
+	background: url(img/Clouds.jpg)center center no-repeat;
+	background-size: cover;/*linear-gradient(lightgray,darkgray,gray,grey,dimgray);*/
 }
 
-/*uber cool effect css*/
+/*uber cool effect css*/ 
 .large-header {
 	position: relative;
 	width: 100%;
