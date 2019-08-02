@@ -272,9 +272,23 @@ div#abo{
 	background-size: cover;
 	color: azure;
 }
+.concard p{
+	font-size: 13px;
+}.concard2 p{
+	font-size: 13px;
+}.concard1 p{
+	font-size: 13px;
+}
 .concard1:hover{
 	background: url(img/team/shreshth%20bansal.jpg) no-repeat;
 	background-position: 0% 8%;
+	background-size: cover;
+	color: azure;
+	
+}
+.concard2:hover{
+	background: url(img/team/RONAK%20JANAWA.jpg) no-repeat;
+	background-position: 0% 25%;
 	background-size: cover;
 	color: azure;
 	
